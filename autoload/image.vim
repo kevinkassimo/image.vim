@@ -7,8 +7,8 @@ endif
 
 if has("python3")
 python3 << EOF
-  import sys, os
-  sys.append(os.path.realpath('../packages'))
+import sys, os
+sys.path.append(os.path.realpath('../packages'))
 EOF
 endif
 
